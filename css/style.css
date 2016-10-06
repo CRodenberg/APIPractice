@@ -1,0 +1,44 @@
+body{
+	background-color: gray;
+	margin: 0;
+}
+.header{
+	height: 85px;
+	width: 1400px;
+	background-color: white;
+	margin: 0 auto;
+}
+.profile-tab{
+	float: left;
+
+}
+.profile-tab img{
+	margin: 15px 5px 10px 10px;
+	float: left;
+}
+.profile-tab p{
+	float: left;
+	margin-top: 30px;
+}
+.logo{
+	float: right;
+}
+.logo img{
+	margin: 15px 15px 0 0;
+
+}
+.youtube-section{
+	width: 1400px;
+	margin: 0 auto;
+	border-top: 2px gray solid;
+	background-color: white;
+}
+.twitter-section{
+	width: 1400px;
+	margin: 0 auto;
+	border-top: 2px gray solid;
+	background-color: white;
+}
+.video{
+	margin: 10px;
+}
