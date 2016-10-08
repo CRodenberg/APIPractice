@@ -1,12 +1,12 @@
 body{
-	background-color: gray;
+	background-color: #D7DADB;
 	margin: 0;
 }
 .header{
 	height: 85px;
-	width: 1400px;
+	width: 100%;
 	background-color: white;
-	margin: 0 auto;
+	margin: 0;
 }
 .profile-tab{
 	float: left;
@@ -27,18 +27,60 @@ body{
 	margin: 15px 15px 0 0;
 
 }
-.youtube-section{
-	width: 1400px;
-	margin: 0 auto;
-	border-top: 2px gray solid;
+.nav-bar{
+	width:24%;
+	min-width: 200px;
 	background-color: white;
+	height:300px;
+	float: right;
+	border-top: 2px #D7DADB solid;
+}
+.youtube-section{
+	float: left;
+	width: 75%;
+	min-width: 700px;
+	margin: 0;
+	border-top: 2px #D7DADB solid;
+	background-color: white;
+}
+h3{
+	margin-left: 10px;
 }
 .twitter-section{
-	width: 1400px;
-	margin: 0 auto;
-	border-top: 2px gray solid;
+	width: 75%;
+	min-width: 700;
+	margin: 0;
+	border-top: 2px #D7DADB solid;
 	background-color: white;
+	float: left;
+}
+.facebook-section{
+	width: 75%;
+	min-width: 700px;
+	margin: 0;
+	border-top: 2px #D7DADB solid;
+	background-color: white;
+	float: left;
+}
+.instagram-section{
+	width: 75%;
+	min-width: 700px;
+	margin: 0;
+	border-top: 2px #D7DADB solid;
+	background-color: white;
+	float: left;
+}
+.livestream-section{
+	width: 75%;
+	min-width: 700px;
+	margin: 0;
+	border-top: 2px #D7DADB solid;
+	background-color: white;
+	float: left;
 }
 .video{
-	margin: 10px;
+	margin: 5px;
+}
+.wrapper{
+	margin: 0 auto;
 }
